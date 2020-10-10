@@ -1,0 +1,23 @@
+.album-item {
+  display: flex;
+  width: 150px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  &__info {
+    border: 1px solid #cecece;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  &__title {
+    flex: 1 0 auto;
+    width: 80%;
+  }
+}

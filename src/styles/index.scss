@@ -1,0 +1,21 @@
+@import '~normalize.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f8f8;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  max-width: 1000px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #fff;
+}
